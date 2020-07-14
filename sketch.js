@@ -7,7 +7,7 @@ var myengine;
 var myshapes = [];
 var f = [];
 function setup() {
-	createCanvas(500, 800);
+	createCanvas(800, 600);
 	// create an engine
 	myengine = Engine.create();
 	Engine.run(myengine);
@@ -32,6 +32,11 @@ function setup() {
 		height * 0.02,
 		PI / 8
 	);
+	for (i = 0; i < 30; i++) {
+		myshapes.push(
+			new Shape(random(width / 7, width / 1.2), random(0, 50), random(10, 20))
+		);
+	}
 }
 
 function draw() {
