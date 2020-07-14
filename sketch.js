@@ -7,7 +7,7 @@ var myengine;
 var myshapes = [];
 var f = [];
 function setup() {
-	createCanvas(800, 600);
+	createCanvas(800, 1000);
 	// create an engine
 	myengine = Engine.create();
 	Engine.run(myengine);
