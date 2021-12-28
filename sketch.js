@@ -32,7 +32,7 @@ function setup() {
 		height * 0.02,
 		PI / 8
 	);
-	for (i = 0; i < 30; i++) {
+	for (i = 0; i < 100; i++) {
 		myshapes.push(
 			new Shape(random(width / 7, width / 1.2), random(0, 50), random(10, 20))
 		);
